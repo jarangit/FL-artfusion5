@@ -1,4 +1,5 @@
 import BoxLabel from "./components/box/boxLabel";
+import Footer from "./components/box/footer";
 
 function App() {
   return (
@@ -6,7 +7,13 @@ function App() {
       <div id="_lg_form_"></div>
       <div>
         <div className="my_container py-20">
-          <BoxLabel/>
+          <BoxLabel />
+        </div>
+      </div>
+
+      <div className="bg-gray-100">
+        <div className="my_container py-20">
+          <Footer />
         </div>
       </div>
     </div>
